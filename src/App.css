@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@keyframes gradient {
+@keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
@@ -13,17 +13,7 @@
 }
 
 .animate-gradient {
+  background: linear-gradient(270deg, #4f46e5, #9333ea, #db2777);
   background-size: 200% 200%;
-  animation: gradient 3s ease infinite;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.animate-gradient {
-  background-size: 200% 200%;
-  animation: gradientMove 1s ease infinite;
+  animation: gradientAnimation 10s ease infinite;
 }

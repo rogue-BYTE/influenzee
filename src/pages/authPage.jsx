@@ -11,7 +11,7 @@ export default function AuthPage() {
           <h2 className="text-3xl font-bold mb-2">
             {isSignUp ? "Create an Account" : "Welcome Back"}
           </h2>
-          <h5 className="font-semibold text-md capitalize bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Influencing made easy with Influenzee</h5> 
+          <h5 className="text-xl font-semibold text-md capitalize bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Influencing made easy with Influenzee</h5> 
         </div>
         <div>
         <form className="space-y-4">
@@ -65,8 +65,11 @@ export default function AuthPage() {
           </button>
         </p>
       </div>
-      <div className="w-[60%] h-[calc(100vh_-_90px)] bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-white text-center">Join the Creative Network</h1>
+      {/* Right Side - Animated Gradient Background */}
+      <div className="w-[60%] h-[calc(100vh_-_90px)] animate-gradient flex items-center justify-center">
+        <h1 className="text-4xl font-bold text-white text-center">
+          Join the Creative Network
+        </h1>
       </div>
     </div>
   );
