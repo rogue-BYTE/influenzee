@@ -1,13 +1,21 @@
-import { Button, HStack } from '@chakra-ui/react'
+import { BrowserRouter, Routes, Route } from "react-router";
+import Header from './components/header.jsx';
+import Landing from './pages/landing.jsx';
+import AuthPage from "./pages/authPage.jsx";
+import Profile from "./pages/profile.jsx";
 
 function App() {
   return (
-    <>
-    <HStack>
-      <Button>Click me</Button>
-      <Button>Click me</Button>
-    </HStack>
-    </>
+    <BrowserRouter>
+      <div className="">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/login" element={<AuthPage />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
