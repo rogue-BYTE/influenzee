@@ -34,7 +34,7 @@ export default function AboutUs() {
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">About Us</h1>
         <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-300">
-          Our mission is to bridge the gap between **influencers** and **creative professionals** like scriptwriters, photographers, and stylists. We empower creators by making collaboration effortless, ensuring that every project reaches its full potential.
+          Our mission is to bridge the gap between influencers and creative professionals like scriptwriters, photographers, and stylists. We empower creators by making collaboration effortless, ensuring that every project reaches its full potential.
         </p>
       </section>
 
@@ -42,7 +42,7 @@ export default function AboutUs() {
       <section className="text-center mb-16">
         <h2 className="text-3xl font-semibold">The Problem We Solve</h2>
         <p className="mt-4 max-w-3xl mx-auto text-gray-300">
-          Many influencers struggle to find **reliable creatives** to bring their vision to life. At the same time, talented professionals lack the right opportunities. Our platform eliminates this disconnect, providing a seamless way to connect and collaborate.
+          Many influencers struggle to find reliable creatives to bring their vision to life. At the same time, talented professionals lack the right opportunities. Our platform eliminates this disconnect, providing a seamless way to connect and collaborate.
         </p>
       </section>
 
