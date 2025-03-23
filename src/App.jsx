@@ -5,6 +5,7 @@ import AuthPage from "./pages/authPage.jsx";
 import Profile from "./pages/profile.jsx";
 import AboutUs from "./pages/about.jsx";
 import Footer from "./components/footer.jsx";
+import Feed from "./pages/feed.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<AuthPage />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/content" element={<Feed />} />
         </Routes>
         <Footer />
       </div>
