@@ -6,32 +6,35 @@ export default function AuthPage() {
 
   return (
     <div className="h-[calc(100vh_-_90px)] flex text-white">
-      <div className="w-[40%] h-[calc(100vh_-_90px)] flex flex-col justify-around px-13 py-8 bg-white/10 backdrop-blur-lg">
-        <h2 className="text-3xl font-bold mb-6">
-          {isSignUp ? "Create an Account" : "Welcome Back"}
-        </h2>
+      <div className="w-[40%] h-[calc(100vh_-_90px)] flex flex-col justify-around px-20 py-8 bg-white/10 backdrop-blur-lg">
+        <div className="mb-3">
+          <h2 className="text-3xl font-bold mb-2">
+            {isSignUp ? "Create an Account" : "Welcome Back"}
+          </h2>
+          <h5 className="font-semibold text-md capitalize bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Influencing made easy with Influenzee</h5> 
+        </div>
         <div>
         <form className="space-y-4">
           {isSignUp && (
             <input
               type="text"
               placeholder="Full Name"
-              className="w-full p-3 bg-transparent border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-5 py-3 bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           )}
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full p-3 bg-transparent border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-5 py-3 bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full p-3 bg-transparent border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-5 py-3 bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold px-4 py-3 rounded-lg shadow-lg hover:opacity-90 transition-all"
+            className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold px-4 py-3 rounded-full shadow-lg hover:opacity-90 transition-all"
           >
             {isSignUp ? "Sign Up" : "Log In"}
           </button>
@@ -43,10 +46,10 @@ export default function AuthPage() {
             </span>
           </div>
           <div className="flex gap-3">
-            <button className="w-[75%] flex items-center justify-center gap-3 bg-white text-black font-semibold px-4 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition-all">
+            <button className="w-[75%] flex items-center justify-center gap-3 bg-white text-black font-semibold px-4 py-3 rounded-full shadow-lg hover:bg-gray-200 transition-all">
               <FaGoogle /> Google
             </button>
-            <button className="w-[75%] flex items-center justify-center gap-3 bg-black text-white font-semibold px-4 py-3 rounded-lg shadow-lg hover:bg-gray-800 transition-all">
+            <button className="w-[75%] flex items-center justify-center gap-3 bg-black text-white font-semibold px-4 py-3 rounded-full shadow-lg hover:bg-gray-800 transition-all">
               <FaApple /> Apple
             </button>
           </div>
