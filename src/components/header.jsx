@@ -22,7 +22,7 @@ export default function Header() {
         {/* Navigation Links */}
         <nav className="flex items-center font-semibold space-x-4">
           <NavLink to="/content" className="text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors">
-            Top contents
+            Trending
           </NavLink>
           <NavLink to="/about" className="text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors">
             About us

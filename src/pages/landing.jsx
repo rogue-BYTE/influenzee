@@ -37,11 +37,6 @@ export default function Landing() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer id="contact" className="mt-24 p-6 text-center bg-black w-full rounded-t-lg">
-        <p className="opacity-80">&copy; 2025 Influenzee. All rights reserved.</p>
-      </footer>
     </div>
   );
 }
