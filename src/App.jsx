@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 
 // import Header from './components/Header';
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 import Landing from './pages/Landing';
 import AuthPage from "./pages/AuthPage";
@@ -20,7 +20,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/content" element={<Feed />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
     </BrowserRouter>
   )
 }
