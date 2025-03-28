@@ -23,7 +23,7 @@ export default function Header() {
               type="text"
               placeholder="Search something..."
               aria-label="Search"
-              className="input w-full font-semibold bg-gray-900 text-white rounded-full border-none focus:outline-none focus:ring-0 px-4 py-2"
+              className="input w-full bg-gray-900 text-white rounded-full border-none focus:outline-none focus:ring-0 px-4 py-2"
             />
           </div>
         </div>

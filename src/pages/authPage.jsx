@@ -48,10 +48,10 @@ export default function AuthPage() {
               </span>
             </div>
             <div className="flex gap-3 flex-col sm:flex-row">
-              <button className="flex items-center justify-center gap-2 w-full sm:w-[50%] px-5 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition-all">
+              <button className="flex items-center justify-center gap-2 w-full sm:w-[50%] px-5 py-3 bg-white text-black rounded-full shadow-lg hover:bg-gray-200 transition-all">
                 <FaGoogle /> Google
               </button>
-              <button className="flex items-center justify-center gap-2 w-full sm:w-[50%] px-5 py-3 bg-black text-white font-semibold rounded-full shadow-lg hover:bg-gray-800 transition-all">
+              <button className="flex items-center justify-center gap-2 w-full sm:w-[50%] px-5 py-3 bg-black text-white rounded-full shadow-lg hover:bg-gray-800 transition-all">
                 <FaApple /> Apple
               </button>
             </div>

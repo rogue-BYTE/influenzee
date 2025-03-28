@@ -18,3 +18,11 @@
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease infinite;
 }
+
+input {
+  font-weight: 500;
+}
+
+button {
+  font-weight: 600;
+}
