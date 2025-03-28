@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from "./components/Footer";
 
 import Landing from './pages/Landing';
@@ -12,7 +12,7 @@ import Feed from "./pages/Feed";
 function App() {
   return (
     <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/login" element={<AuthPage />} />
