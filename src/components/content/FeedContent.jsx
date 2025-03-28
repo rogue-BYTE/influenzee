@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaHeart, FaComment, FaShare } from "react-icons/fa";
 import { RxAvatar } from "react-icons/rx";
 
-export default function Content({ mediaUrl, type, user, caption, likes, comments }) {
+export default function FeedContent({ mediaUrl, type, user, caption, likes, comments }) {
   const [liked, setLiked] = useState(false);
     const videoRef = useRef(null);
   const postRef = useRef(null);

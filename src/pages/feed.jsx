@@ -1,4 +1,4 @@
-import Content from "@/components/content";
+import FeedContent from "@/components/content/FeedContent";
 
 export default function Feed() {
   const sample = {
@@ -10,9 +10,9 @@ export default function Feed() {
     comments: [],
   }
   return <div>
-            <Content {...sample} />
-            <Content {...sample} />
-            <Content {...sample} />
-            <Content {...sample} />
+            <FeedContent {...sample} />
+            <FeedContent {...sample} />
+            <FeedContent {...sample} />
+            <FeedContent {...sample} />
           </div>
 }
