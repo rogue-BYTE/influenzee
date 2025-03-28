@@ -20,7 +20,7 @@ export default function Header() {
               type="text"
               placeholder="Search something..."
               aria-label="Search"
-              className="w-full px-5 py-3 font-semibold bg-gray-900 text-white rounded-full border-none focus:outline-none focus:ring-0"
+              className=" input w-full font-semibold bg-gray-900 text-white rounded-full border-none focus:outline-none focus:ring-0"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Header() {
             About us
           </NavLink>
           {location.pathname === "/login" ? null : <NavLink to="/login">
-            <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:opacity-90 transition-all">Join</button>
+            <button className="btn btn-md bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full hover:opacity-90 transition-all">Join</button>
           </NavLink>}
         </nav>
       </div>

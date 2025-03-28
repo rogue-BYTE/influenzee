@@ -25,16 +25,16 @@ export default function AuthPage() {
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full px-5 py-3 bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="input input-lg text-sm font-semibold w-full bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full px-5 py-3 bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="input input-lg text-sm font-semibold w-full bg-transparent border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold px-4 py-3 rounded-full shadow-lg hover:opacity-90 transition-all"
+            className="btn btn-lg text-sm w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-full shadow-lg hover:opacity-90 transition-all"
           >
             {isSignUp ? "Sign Up" : "Log In"}
           </button>
@@ -46,10 +46,10 @@ export default function AuthPage() {
             </span>
           </div>
           <div className="flex gap-3">
-            <button className="w-[75%] flex items-center justify-center gap-3 bg-white text-black font-semibold px-4 py-3 rounded-full shadow-lg hover:bg-gray-200 transition-all">
+            <button className="btn btn-lg text-sm w-[50%] bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition-all">
               <FaGoogle /> Google
             </button>
-            <button className="w-[75%] flex items-center justify-center gap-3 bg-black text-white font-semibold px-4 py-3 rounded-full shadow-lg hover:bg-gray-800 transition-all">
+            <button className="btn btn-lg text-sm w-[50%] bg-black text-white font-semibold rounded-full shadow-lg hover:bg-gray-800 transition-all">
               <FaApple /> Apple
             </button>
           </div>

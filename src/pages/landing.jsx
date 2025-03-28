@@ -10,7 +10,7 @@ export default function Landing() {
           Find and collaborate with top scriptwriters, photographers, and stylists to bring your vision to life.
         </p>
         <NavLink to="/login">
-          <button className="mt-6 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:opacity-90 transition-all">
+          <button className="btn btn-lg mt-6 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-full hover:opacity-90 transition-all">
             Get Started →
           </button>
         </NavLink>
