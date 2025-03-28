@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router";
+
 import Header from './components/Header.jsx';
+import Footer from "./components/Footer.jsx";
+
 import Landing from './pages/Landing.jsx';
 import AuthPage from "./pages/AuthPage.jsx";
 import Profile from "./pages/Profile.jsx";
 import AboutUs from "./pages/About.jsx";
-import Footer from "./components/Footer.jsx";
 import Feed from "./pages/Feed.jsx";
 
 function App() {
