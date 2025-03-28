@@ -10,17 +10,15 @@ import Feed from "./pages/feed.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <div className="">
         <Header />
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/login" element={<AuthPage />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/content" element={<Feed />} />
-        </Routes>
-        <Footer />
-      </div>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/login" element={<AuthPage />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/content" element={<Feed />} />
+          </Routes>
+          <Footer />
     </BrowserRouter>
   )
 }
