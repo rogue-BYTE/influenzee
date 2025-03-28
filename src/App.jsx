@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Landing from "./pages/Landing";
 import AuthPage from "./pages/AuthPage";
 import Profile from "./pages/Profile";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/About";
 import Feed from "./pages/Feed";
 
 function App() {
